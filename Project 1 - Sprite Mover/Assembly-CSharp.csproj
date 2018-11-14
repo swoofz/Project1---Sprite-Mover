@@ -62,6 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DisableMovement.cs" />
+    <Compile Include="Assets\Scripts\GameQuitter.cs" />
+    <Compile Include="Assets\Scripts\InActive.cs" />
     <Compile Include="Assets\Scripts\ResetPosition.cs" />
     <Compile Include="Assets\Scripts\SpriteMover.cs" />
     <Reference Include="UnityEditor.StandardEvents">
