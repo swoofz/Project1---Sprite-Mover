@@ -200,6 +200,8 @@ GameObject:
   - component: {fileID: 1281122421}
   - component: {fileID: 1281122420}
   - component: {fileID: 1281122422}
+  - component: {fileID: 1281122423}
+  - component: {fileID: 1281122424}
   m_Layer: 0
   m_Name: starShip
   m_TagString: Untagged
@@ -278,3 +280,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.05
+--- !u!114 &1281122423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281122419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f44f84df2231d045bb0931b25e0a40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1281122424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281122419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad576eec04ac3644bc9e39efc335702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go: {fileID: 1281122419}
