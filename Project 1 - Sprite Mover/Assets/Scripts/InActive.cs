@@ -5,7 +5,7 @@ using UnityEngine;
 public class InActive : MonoBehaviour {
 
     // Declare Variable
-    public GameObject go;
+    public GameObject go; // Create a varible to get a gameObject
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +16,7 @@ public class InActive : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        // Set gameObject active or inactive
         if (Input.GetKeyDown(KeyCode.Q)) {
             go.SetActive(!go.activeSelf);
         }

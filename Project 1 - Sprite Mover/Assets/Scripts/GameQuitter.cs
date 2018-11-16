@@ -8,7 +8,6 @@ public class GameQuitter : MonoBehaviour {
 	void Update () {
         // Have a quit button to exit the application
         if (Input.GetKeyDown(KeyCode.Escape)) {
-            Debug.Log("Quit Game");
             Application.Quit();
         }
 	}
